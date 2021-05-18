@@ -10,7 +10,7 @@
 Ruby 2.6.5,Rails 5.2.6
 
 ## カタログ設計
-https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xzbqg/edit#gid=0
+https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xzbqg/edit?usp=sharing
 
 ## 機能一覧
 - [ ] ログイン機能
@@ -36,16 +36,16 @@ https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xz
   - [ ] 完了時に、投稿者宛にメールを送ることができるようにする
 
 ## テーブル定義書
-https://docs.google.com/spreadsheets/d/198CFON3ZeLaEFg_buQBcSsmhrx6P4Lvs9mAhtrlKDkA/edit#gid=1531001968
+https://docs.google.com/spreadsheets/d/198CFON3ZeLaEFg_buQBcSsmhrx6P4Lvs9mAhtrlKDkA/edit?usp=sharing
 
 ## ER図
-https://app.diagrams.net/#G1NoczdiBLnPDXujOC_SBjHk61jbhSBwKA
+https://drive.google.com/file/d/1NoczdiBLnPDXujOC_SBjHk61jbhSBwKA/view?usp=sharing
 
 ## 画面遷移図
-https://cacoo.com/diagrams/WB9alzIYoQp7Ibn5/5BFBE?reload_rt=1621245766464_0
+https://cacoo.com/diagrams/WB9alzIYoQp7Ibn5/5BFBE
 
 ## ワイヤーフレーム
-https://docs.google.com/spreadsheets/d/1BAi2C-EiQZWqjE8m5PQ_NCutsAyq1HfLV4yKr5qY-_s/edit#gid=0
+https://docs.google.com/spreadsheets/d/1BAi2C-EiQZWqjE8m5PQ_NCutsAyq1HfLV4yKr5qY-_s/edit?usp=sharing
 
 ## 使用予定Gem
 + devise
