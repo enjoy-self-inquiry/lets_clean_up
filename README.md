@@ -1,18 +1,19 @@
-#README
+# README
 
-#まち美化支援アプリ
+# まち美化支援アプリ
 
-##概要
+## 概要
 公園遊具の破損や放置自転車などを発見した際に、写真付きで地図上にレポートを投稿することができるアプリ
 市民から投稿された内容を受けて、自治体が対応をし、完了報告と対応内容を確認することができます。
 
-##バージョン情報
+## バージョン情報
 Ruby 2.6.5,Rails 5.2.6
 
-##カタログ設計
-https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xzbqg/edit#gid=0
+## カタログ設計
+https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xzbqg/edit?usp=sharing
 
-##機能一覧
+
+## 機能一覧
 - [ ] ログイン機能
 - [ ] ユーザー登録機能
 - [ ] 管理者機能
@@ -35,19 +36,19 @@ https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xz
 - [ ] メール送信機能
   - [ ] 完了時に、投稿者宛にメールを送ることができるようにする
 
-##テーブル定義書
-https://docs.google.com/spreadsheets/d/198CFON3ZeLaEFg_buQBcSsmhrx6P4Lvs9mAhtrlKDkA/edit#gid=1531001968
+## テーブル定義書
+https://docs.google.com/spreadsheets/d/198CFON3ZeLaEFg_buQBcSsmhrx6P4Lvs9mAhtrlKDkA/edit?usp=sharing
 
-##ER図
-https://app.diagrams.net/#G1NoczdiBLnPDXujOC_SBjHk61jbhSBwKA
+## ER図
+https://drive.google.com/file/d/1NoczdiBLnPDXujOC_SBjHk61jbhSBwKA/view?usp=sharing
 
-##画面遷移図
-https://cacoo.com/diagrams/WB9alzIYoQp7Ibn5/5BFBE?reload_rt=1621245766464_0
+## 画面遷移図
+https://cacoo.com/diagrams/WB9alzIYoQp7Ibn5/5BFBE
 
-##ワイヤーフレーム
-https://docs.google.com/spreadsheets/d/1BAi2C-EiQZWqjE8m5PQ_NCutsAyq1HfLV4yKr5qY-_s/edit#gid=0
+## ワイヤーフレーム
+https://docs.google.com/spreadsheets/d/1BAi2C-EiQZWqjE8m5PQ_NCutsAyq1HfLV4yKr5qY-_s/edit?usp=sharing
 
-##使用予定Gem
+## 使用予定Gem
 + devise
 + letter_opener_web
 + faker
