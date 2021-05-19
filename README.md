@@ -34,6 +34,7 @@ https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xz
 　- [ ] コメント編集と削除は投稿者・担当部署・管理者のみ可能
 - [ ] メール送信機能
   - [ ] 完了時に、投稿者宛にメールを送ることができるようにする
+- [ ] AWS
 
 ## テーブル定義書
 https://docs.google.com/spreadsheets/d/198CFON3ZeLaEFg_buQBcSsmhrx6P4Lvs9mAhtrlKDkA/edit?usp=sharing
