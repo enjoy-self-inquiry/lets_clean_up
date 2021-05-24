@@ -51,7 +51,7 @@ https://docs.google.com/spreadsheets/d/1BAi2C-EiQZWqjE8m5PQ_NCutsAyq1HfLV4yKr5qY
 ## 使用予定Gem
 + devise　・・・ログイン機能の実装を補助するgem
 + letter_opener_web
-+ faker
++ faker ・・・シードデータの生成
 + kaminari
 + geocoder　・・・投稿時に入力した住所をGoogleMapに表示させるために導入します。
 + carrierwave
