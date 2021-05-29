@@ -35,6 +35,7 @@ https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xz
 　- [ ] コメント編集と削除は投稿者・担当部署・管理者のみ可能
 - [ ] メール送信機能
   - [ ] 完了時に、投稿者宛にメールを送ることができるようにする
+- [ ] AWS
 
 ## テーブル定義書
 https://docs.google.com/spreadsheets/d/198CFON3ZeLaEFg_buQBcSsmhrx6P4Lvs9mAhtrlKDkA/edit?usp=sharing
@@ -49,9 +50,9 @@ https://cacoo.com/diagrams/WB9alzIYoQp7Ibn5/5BFBE
 https://docs.google.com/spreadsheets/d/1BAi2C-EiQZWqjE8m5PQ_NCutsAyq1HfLV4yKr5qY-_s/edit?usp=sharing
 
 ## 使用予定Gem
-+ devise
++ devise ・・・ログイン機能の実装を補助するgem
 + letter_opener_web
 + faker
 + kaminari
-+ geocoder
++ geocoder ・・・投稿時に入力した住所をGoogleMapに表示させるために導入します。
 + carrierwave
