@@ -9,6 +9,13 @@ class ReportsController < ApplicationController
         render :new
       end
     end
+
+    def index
+      @reports = report.all
+    end
+    def show
+      @report = report.find(params[:id])
+    end
     private
     def report_params
       params.require(:report).permit(:title, :content)
