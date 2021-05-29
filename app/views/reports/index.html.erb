@@ -1,14 +1,16 @@
 <div class="container">
+  <p><%= notice %></p>
   <h2 class="title">レポート一覧</h2>
       <div class="row">
         <% @reports.each do |report| %>
-          <div>
-            <%= report.title %>
-            <br><br>
-            <%= report.content %>
-            <br><br>
-            <%= link_to "詳細", report_path(report.id) %>
-          </div>
+        <tr>
+            <td><%= report.title %></td>
+            <td><%= report.content %></td>
+            <td><%= link_to "詳細", report_path(report.id) %></td>
+            <td><%= link_to "編集する", edit_report_path(report.id), data: {confirm: "本当に編集しますか？"} %></td>
+          </tr>
+          <br><br>
         <% end %>
+        <%= link_to 'レポートを新規作成', new_report_path %>
       </div>
 </div>
