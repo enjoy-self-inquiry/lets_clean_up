@@ -12,6 +12,7 @@ Ruby 2.6.5,Rails 5.2.6
 ## カタログ設計
 https://docs.google.com/spreadsheets/d/17J_3O0Dc_SbYxZYF0BRbp9TO5KQKmThhbVDW1_Xzbqg/edit?usp=sharing
 
+
 ## 機能一覧
 - [ ] ログイン機能
 - [ ] ユーザー登録機能
@@ -49,9 +50,9 @@ https://cacoo.com/diagrams/WB9alzIYoQp7Ibn5/5BFBE
 https://docs.google.com/spreadsheets/d/1BAi2C-EiQZWqjE8m5PQ_NCutsAyq1HfLV4yKr5qY-_s/edit?usp=sharing
 
 ## 使用予定Gem
-+ devise　・・・ログイン機能の実装を補助するgem
+
 + letter_opener_web
 + faker ・・・シードデータの生成
 + kaminari
-+ geocoder　・・・投稿時に入力した住所をGoogleMapに表示させるために導入します。
+
 + carrierwave
