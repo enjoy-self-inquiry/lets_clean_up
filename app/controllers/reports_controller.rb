@@ -11,7 +11,7 @@ class ReportsController < ApplicationController
       render :new
     else
       if @report.save
-        redirect_to reports_path, notice: "レポートを作成しました！"
+        redirect_to report_path(@report.id), notice: "レポートを作成しました！"
       else
         render :new
       end
@@ -30,11 +30,11 @@ class ReportsController < ApplicationController
   end
 
   def index
-    @reports = report.all
+    @reports = Report.all
   end
 
   def show
-    @report = report.find(params[:id])
+    #@report = Report.find(params[:id])
   end
 
   def destroy
@@ -50,6 +50,6 @@ class ReportsController < ApplicationController
   end
 
   def set_report
-    @report = report.find(params[:id])
+    @report = Report.find(params[:id])
   end
 end
