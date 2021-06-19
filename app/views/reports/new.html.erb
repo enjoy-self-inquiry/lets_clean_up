@@ -1,7 +1,7 @@
 <h1>新規作成</h1>
 <% if @report.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@report.errors.count, "error") %> prohibited this <%= @report.title %> from being saved:</h2>
+    <h2><%= @report.errors.count %>件のエラーが発生しました:</h2>
     <ul>
     <% @report.errors.full_messages.each do |message| %>
       <li><%= message %></li>
